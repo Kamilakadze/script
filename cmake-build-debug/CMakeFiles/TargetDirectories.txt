@@ -1,0 +1,3 @@
+/Users/kamiladossymbek/CLionProjects/symmetricscript/cmake-build-debug/CMakeFiles/symmetricscript.dir
+/Users/kamiladossymbek/CLionProjects/symmetricscript/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kamiladossymbek/CLionProjects/symmetricscript/cmake-build-debug/CMakeFiles/rebuild_cache.dir
