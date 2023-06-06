@@ -58,12 +58,15 @@ public:
 
 int main()
 {
-    Vigenere cipher("key");
+    string key, original;
+    cout << "Enter the key: ";
+    getline(cin, key);
+    cout << "Enter the original text: ";
+    getline(cin, original);
 
-    string original = "Hello world";
+    Vigenere cipher(key);
     string encrypted = cipher.encrypt(original);
     string decrypted = cipher.decrypt(encrypted);
-
     cout << "Original: " << original << endl;
     cout << "Encrypted: " << encrypted << endl;
     cout << "Decrypted: " << decrypted << endl;
